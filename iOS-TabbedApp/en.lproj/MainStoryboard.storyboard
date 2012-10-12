@@ -109,14 +109,14 @@
                                     <constraint firstAttribute="width" constant="97" id="Ll7-Lb-hfb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gjE-yR-xfD" firstAttribute="top" secondItem="3bp-WU-o1U" secondAttribute="top" constant="86" id="5uh-pv-Ko8"/>
-                            <constraint firstItem="gjE-yR-xfD" firstAttribute="centerX" secondItem="3bp-WU-o1U" secondAttribute="centerX" type="default" id="Ecy-PL-Jlk"/>
-                            <constraint firstItem="RO6-pG-VAK" firstAttribute="top" secondItem="3bp-WU-o1U" secondAttribute="top" constant="41" id="bVA-l4-OQT"/>
+                            <constraint firstItem="RO6-pG-VAK" firstAttribute="top" secondItem="3bp-WU-o1U" secondAttribute="top" constant="43" id="L5E-j2-dl1"/>
+                            <constraint firstItem="RO6-pG-VAK" firstAttribute="centerX" secondItem="3bp-WU-o1U" secondAttribute="centerX" type="default" id="RAC-bY-94S"/>
                             <constraint firstItem="RO6-pG-VAK" firstAttribute="centerX" secondItem="gjE-yR-xfD" secondAttribute="centerX" type="default" id="pgG-t2-Kg7"/>
                         </constraints>
                     </view>

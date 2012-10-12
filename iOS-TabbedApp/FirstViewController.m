@@ -9,7 +9,7 @@
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
-
+- (void) configureView;
 @end
 
 @implementation FirstViewController
@@ -25,5 +25,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)configureView {
+    self.messageLabel.text = self.messageToShow;
+}
+
+- (void)setMessageToShow:(NSString*)newMessage {
+    if (_messageToShow != newMessage) {
+        _messageToShow = newMessage;
+        [self configureView];
+    } }
 
 @end
