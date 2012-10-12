@@ -7,7 +7,7 @@
 //
 
 #import "ThirdViewController.h"
-#import "FirstViewController.h"
+
 
 @interface ThirdViewController ()
 
@@ -37,12 +37,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    FirstViewController *firstvc = [self.tabBarController.viewControllers
-                                       objectAtIndex:0];
-    firstvc.messageToShow = textField.text;
-    return YES;
-}
+
 
 @end

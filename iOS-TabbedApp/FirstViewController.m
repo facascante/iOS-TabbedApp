@@ -36,9 +36,11 @@
         [self configureView];
     } }
 
-- (BOOL)textFieldShouldReturn:(UITextField *) textField
-{
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
+    FirstViewController *firstvc = [self.tabBarController.viewControllers
+                                    objectAtIndex:0];
+    firstvc.messageToShow = textField.text;
     return YES;
 }
 
