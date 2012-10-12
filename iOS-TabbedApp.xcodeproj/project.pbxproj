@@ -23,6 +23,7 @@
 		AB282D2916282B53002D7E74 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB282D2816282B53002D7E74 /* SecondViewController.m */; };
 		AB282D2B16282B53002D7E74 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AB282D2A16282B53002D7E74 /* second.png */; };
 		AB282D2D16282B53002D7E74 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB282D2C16282B53002D7E74 /* second@2x.png */; };
+		AB282D3516282EB5002D7E74 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB282D3416282EB5002D7E74 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		AB282D2816282B53002D7E74 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AB282D2A16282B53002D7E74 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		AB282D2C16282B53002D7E74 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		AB282D3316282EB5002D7E74 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		AB282D3416282EB5002D7E74 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				AB282D1416282B53002D7E74 /* AppDelegate.h */,
 				AB282D1516282B53002D7E74 /* AppDelegate.m */,
 				AB282D1D16282B53002D7E74 /* MainStoryboard.storyboard */,
+				AB282D3316282EB5002D7E74 /* ThirdViewController.h */,
+				AB282D3416282EB5002D7E74 /* ThirdViewController.m */,
 				AB282D2016282B53002D7E74 /* FirstViewController.h */,
 				AB282D2116282B53002D7E74 /* FirstViewController.m */,
 				AB282D2316282B53002D7E74 /* first.png */,
@@ -198,6 +203,7 @@
 				AB282D1616282B53002D7E74 /* AppDelegate.m in Sources */,
 				AB282D2216282B53002D7E74 /* FirstViewController.m in Sources */,
 				AB282D2916282B53002D7E74 /* SecondViewController.m in Sources */,
+				AB282D3516282EB5002D7E74 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
